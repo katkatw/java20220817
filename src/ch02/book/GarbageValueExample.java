@@ -1,7 +1,5 @@
 package ch02.book;
 
-import java.util.Iterator;
-
 public class GarbageValueExample {
 	public static void main(String[] args) {
 		byte var1 = 125;
