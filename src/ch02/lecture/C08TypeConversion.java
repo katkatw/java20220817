@@ -12,12 +12,12 @@ public class C08TypeConversion {
 		
 		a = b; // 자동 형변환
 		
-		char x = '가';
+		char c = '가';
 		a = c;
 		
 		long d = c;
 		
-//		short e = c; // 안됨
+//		short e = c; // X 안됨
 		
 		float f = 3.14F;
 		double g = f;
@@ -31,11 +31,11 @@ public class C08TypeConversion {
 		double m = k;
 		
 		boolean n = true;
-//		int o = n; // 안됨
+//		int o = n; // X 안됨
 		
 		// 강제 형변환 (큰타입 -> 작은타입)
 		long q = 999999L; 	// q는 8바이트, p는 4바이트
-		int p = q;			// X 
+//		int p = q;			// X 안됨 
 		int r = (int)q; 	// 강제형변환 (cast, casting)
 		System.out.println(r);
 		
@@ -45,7 +45,7 @@ public class C08TypeConversion {
 		
 		// 실수 -> 정수 (강제형변환)
 		float s = 3.14F;
-		int t = s; // X 안됨
+//		int t = s; // X 안됨
 		int u = (int)s;
 		System.out.println(u);
 		
