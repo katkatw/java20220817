@@ -33,5 +33,11 @@ public class C10Expression {
 		
 //		char s = q + r; // x
 		int t = q + r; // ok
+
+		
+		//변수이름에 키워드 사용불가
+//		int class;
+//		int package;
+//		int int;
 	}
 }
