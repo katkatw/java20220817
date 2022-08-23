@@ -1,4 +1,4 @@
-package ch04.lecture;
+package ch04.lecture.p01control;
 
 public class C07For { // 무한루프 관련한 설명
 	public static void main(String[] args) {

@@ -1,19 +1,21 @@
-package ch04.lecture;
+package ch04.lecture.p01control;
 
-public class C12Break {
+public class C14Continue {
 	public static void main(String[] args) {
 		System.out.println(1);
 		
-		while (true) {
+		for (int i = 0; i < 5; i++) {
 			System.out.println(2);
-			//break; //브레이크 들어가면 3이 실행되지 않는다
+			
 			if (true) {
-				break;
+				continue;
 			}
+			
 			System.out.println(3);
 		}
 		
-		
 		System.out.println(4);
+		
+		
 	}
 }
