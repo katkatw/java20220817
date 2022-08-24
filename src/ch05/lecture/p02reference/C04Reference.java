@@ -8,10 +8,10 @@ public class C04Reference {
 		printVar(b); // 5
 		
 		int[] c = {9, 1, 2};
-		printArray(c);
+		printArray(c);			// 9
 		
 		int[] d = {99, 88, 77};
-		printArray(d);
+		printArray(d);			// 99
 		
 	}
 	
