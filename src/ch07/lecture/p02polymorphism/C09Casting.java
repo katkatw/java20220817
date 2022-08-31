@@ -19,7 +19,7 @@ public class C09Casting {
 			SubClass41 o4 = (SubClass41) o3;
 		}
 		
-//		SubClass41 o4 = (SubClass41) o3;
+//		SubClass41 o4 = (SubClass41) o3; // 옆으로 갈 수 없음
 		
 		
 		// 도중에 런타입 익셉션이 나타난다.
