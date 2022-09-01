@@ -1,4 +1,4 @@
-package ch08.book.p04;
+package ch08.book.exercise.p4;
 
 public class DaoExample {
 	public static void dbWork(DataAccessObject dao) {
@@ -9,7 +9,7 @@ public class DaoExample {
 	}
 	
 	public static void main(String[] args) {
-		dbWork(OracleDao());
-		dbWork(MySqlDao());
+		dbWork(new OracleDao());
+		dbWork(new MySqlDao());
 	}
 }

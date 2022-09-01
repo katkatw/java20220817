@@ -1,4 +1,4 @@
-package ch08.book.p03;
+package ch08.book.exercise.p3;
 
 public class Dog implements Soundable {
 
