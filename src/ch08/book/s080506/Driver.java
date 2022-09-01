@@ -12,7 +12,8 @@ public class Driver {
 		vehicle.run();
 	}
 	
-	public static void main(String[] args) {
-		drive(new Bus());
-	}
+	//실행하려면 이걸 써야됨
+//	public static void main(String[] args) {
+//		drive(new Bus());
+//	}
 }

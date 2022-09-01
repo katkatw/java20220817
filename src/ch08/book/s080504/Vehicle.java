@@ -1,5 +1,5 @@
 package ch08.book.s080504;
 
-public class Vehicle {
-
+public interface Vehicle {
+	public void run();
 }
