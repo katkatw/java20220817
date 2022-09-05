@@ -11,6 +11,7 @@ public class C02Finally {
 			// exception이 발생하지 않으면 실행되는 코드들
 			System.out.println("익셉션 발생안해서 실행됨");
 			System.out.println(c);
+			
 		}  catch (ArithmeticException e) { 
 			// exception이 발생하면 실행되는 코드들
 			System.out.println("익셉션 발생하면 실행되는 코드들");

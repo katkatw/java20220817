@@ -3,7 +3,7 @@ package ch10.lecture.p02try;
 public class C01Try {
 	public static void main(String[] args) {
 		int a = 3;
-		int b = 0;
+		int b = 2;
 		
 		try { 
 			// try : Exception이 발생할 수 있는 코드 블럭
