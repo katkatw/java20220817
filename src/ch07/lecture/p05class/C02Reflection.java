@@ -3,7 +3,7 @@ package ch07.lecture.p05class;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.Iterator;
+
 
 public class C02Reflection {
 	public static void main(String[] args) {
