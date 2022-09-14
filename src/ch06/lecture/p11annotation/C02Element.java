@@ -1,5 +1,7 @@
 package ch06.lecture.p11annotation;
 
+import ch05.lecture.p04enum.Week;
+
 public class C02Element {
 	@MyAnnotation2(value = "coyote")
 	private int i;
@@ -16,8 +18,8 @@ public class C02Element {
 	@MyAnnotation2(value = "iceman", age = 30) // 여러 어노테이션 값은 value = 를 생략하지 못함
 	private int m;
 	
-	@MyAnnotation2(week = week.TUESDAY)
-	pravate int o;
+	@MyAnnotation2(week = Week.TUESDAY)
+	private int o;
 	
 	@MyAnnotation2(names = {"maverick", "phoenix"})
 	private int p;
