@@ -1,4 +1,4 @@
-package ch15.book.exercise.p8;
+package ch15.book.exercise.p08;
 
 import java.util.HashSet;
 import java.util.Iterator;

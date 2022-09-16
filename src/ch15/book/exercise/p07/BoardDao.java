@@ -1,4 +1,4 @@
-package ch15.book.exercise.p7;
+package ch15.book.exercise.p07;
 
 import java.util.ArrayList;
 import java.util.List;
