@@ -20,7 +20,7 @@ public class GroupingByExample {
 				.collect(Collectors.groupingBy(Student :: getSex));
 		
 		System.out.println("[남학생] ");
-		mapBySex.get(Student.Sex.MALE).stream()
+		mapBySex.get(Student.Sex.MALE).stream() // 리스트를 얻어서 스트림으로 만든다 // Student.Sex.MALE 리스트!
 			.forEach(s -> System.out.println(s.getName() + " "));
 		
 		System.out.println("\n[여학생] ");
