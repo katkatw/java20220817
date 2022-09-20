@@ -1,4 +1,4 @@
-package ch16.lecture.p02stream;
+package ch16.lecture.p02stream; // List.of Set.of Arrays.stream Stream.of
 
 import java.util.Arrays;
 import java.util.List;
