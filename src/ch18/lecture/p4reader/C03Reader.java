@@ -10,7 +10,7 @@ public class C03Reader {
 		
 		int cnt = 0;
 		
-		while (fr.read() != -1) {
+		while (fr.read() != -1) { // fr.read 인티저를 리턴
 			cnt++;
 		}
 		

@@ -1,0 +1,18 @@
+package ch18.lecture.p5writer;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class C02Writer {
+	public static void main(String[] args) throws Exception {
+		String fileName = "C:\\Users\\user\\Desktop\\output\\output6.txt";
+		Writer wr = new FileWriter(fileName);
+		
+		wr.write("hello world");
+		wr.write("!!!!!!!!!!\n"); // \n : enter 다음줄로 넘기는
+		wr.write("@@@@\t@@@@");   // \t : tab	하나의 문자인 탭 키...
+		
+		wr.close();
+	}
+}
