@@ -2,7 +2,7 @@ package ch18.lecture.p7network;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
-import java.io.InputStreamReader; 
+import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -11,7 +11,7 @@ public class C03Server {
 		System.out.println("연결 시도 중...");
 		try (ServerSocket serverSocket = new ServerSocket(30000);) {
 			int cnt = 0;
-			while (cnt < 50) {
+			while (cnt < 500) {
 				cnt++;
 				Socket socket = serverSocket.accept();
 				System.out.println("연결 완료");
@@ -42,4 +42,3 @@ public class C03Server {
 
 	}
 }
-
